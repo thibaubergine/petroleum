@@ -1,0 +1,1402 @@
+[
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 1965,
+    "production": 7.8,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 1970,
+    "production": 9.6,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 1975,
+    "production": 8.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 1980,
+    "production": 8.6,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 1985,
+    "production": 9.0,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 1990,
+    "production": 7.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 1995,
+    "production": 6.6,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2000,
+    "production": 5.8,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2005,
+    "production": 5.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2010,
+    "production": 5.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2015,
+    "production": 9.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2020,
+    "production": 11.3,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2021,
+    "production": 11.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2022,
+    "production": 11.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "year": 2023,
+    "production": 12.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 1965,
+    "production": 2.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 1970,
+    "production": 3.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 1975,
+    "production": 7.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 1980,
+    "production": 10.3,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 1985,
+    "production": 3.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 1990,
+    "production": 6.9,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 1995,
+    "production": 8.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2000,
+    "production": 8.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2005,
+    "production": 9.6,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2010,
+    "production": 8.9,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2015,
+    "production": 10.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2020,
+    "production": 9.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2021,
+    "production": 9.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2022,
+    "production": 10.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "year": 2023,
+    "production": 10.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 1985,
+    "production": 11.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 1990,
+    "production": 10.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 1995,
+    "production": 6.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2000,
+    "production": 6.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2005,
+    "production": 9.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2010,
+    "production": 10.3,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2015,
+    "production": 10.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2020,
+    "production": 10.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2021,
+    "production": 10.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2022,
+    "production": 10.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russia",
+    "year": 2023,
+    "production": 10.3,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 1965,
+    "production": 0.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 1970,
+    "production": 1.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 1980,
+    "production": 1.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 1990,
+    "production": 1.6,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 2000,
+    "production": 2.0,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 2010,
+    "production": 3.3,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 2015,
+    "production": 4.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 2020,
+    "production": 5.1,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "year": 2023,
+    "production": 4.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 1970,
+    "production": 1.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 1980,
+    "production": 2.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 1990,
+    "production": 2.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 1995,
+    "production": 0.6,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 2000,
+    "production": 2.6,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 2005,
+    "production": 1.9,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 2010,
+    "production": 2.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 2015,
+    "production": 4.0,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 2020,
+    "production": 4.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "year": 2023,
+    "production": 4.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 1970,
+    "production": 3.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 1974,
+    "production": 6.0,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 1980,
+    "production": 1.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 1990,
+    "production": 3.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 2000,
+    "production": 3.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 2010,
+    "production": 4.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 2015,
+    "production": 3.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 2020,
+    "production": 2.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran",
+    "year": 2023,
+    "production": 3.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 1965,
+    "production": 0.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 1980,
+    "production": 2.1,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 1990,
+    "production": 2.8,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 2000,
+    "production": 3.3,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 2010,
+    "production": 4.1,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 2015,
+    "production": 4.3,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 2020,
+    "production": 3.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "year": 2023,
+    "production": 3.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "year": 1970,
+    "production": 0.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "year": 1980,
+    "production": 1.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "year": 1990,
+    "production": 2.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "year": 2000,
+    "production": 2.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "year": 2010,
+    "production": 2.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "year": 2020,
+    "production": 3.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "year": 2023,
+    "production": 3.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "year": 1980,
+    "production": 0.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "year": 1990,
+    "production": 0.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "year": 2000,
+    "production": 1.3,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "year": 2010,
+    "production": 2.1,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "year": 2015,
+    "production": 2.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "year": 2020,
+    "production": 3.8,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "year": 2023,
+    "production": 3.0,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "year": 1970,
+    "production": 3.0,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "year": 1980,
+    "production": 1.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "year": 1990,
+    "production": 1.0,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "year": 2000,
+    "production": 2.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "year": 2010,
+    "production": 2.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "year": 2020,
+    "production": 2.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "year": 2023,
+    "production": 2.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 1975,
+    "production": 0.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 1980,
+    "production": 0.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 1990,
+    "production": 1.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 2000,
+    "production": 3.2,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 2001,
+    "production": 3.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 2010,
+    "production": 2.1,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 2020,
+    "production": 2.0,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "year": 2023,
+    "production": 1.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "year": 1995,
+    "production": 0.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "year": 2000,
+    "production": 0.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "year": 2010,
+    "production": 1.6,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "year": 2015,
+    "production": 1.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "year": 2020,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "year": 2023,
+    "production": 1.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 1970,
+    "production": 0.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 1980,
+    "production": 2.0,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 1990,
+    "production": 2.5,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 2000,
+    "production": 3.0,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 2004,
+    "production": 3.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 2010,
+    "production": 2.6,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 2020,
+    "production": 1.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "year": 2023,
+    "production": 1.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 1970,
+    "production": 1.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 1980,
+    "production": 2.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 1990,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 2000,
+    "production": 2.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 2005,
+    "production": 2.6,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 2010,
+    "production": 2.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 2020,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "year": 2023,
+    "production": 1.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "year": 1980,
+    "production": 0.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "year": 1990,
+    "production": 0.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "year": 2000,
+    "production": 0.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "year": 2010,
+    "production": 1.6,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "year": 2020,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "year": 2023,
+    "production": 1.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "year": 1980,
+    "production": 0.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "year": 1990,
+    "production": 0.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "year": 2000,
+    "production": 0.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "year": 2008,
+    "production": 1.9,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "year": 2010,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "year": 2020,
+    "production": 1.3,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "year": 2023,
+    "production": 1.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 1970,
+    "production": 3.3,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 1980,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 1990,
+    "production": 1.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 2000,
+    "production": 1.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 2010,
+    "production": 1.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 2011,
+    "production": 0.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 2020,
+    "production": 0.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "year": 2023,
+    "production": 1.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 1970,
+    "production": 1.0,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 1980,
+    "production": 1.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 1990,
+    "production": 1.3,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 2000,
+    "production": 1.6,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 2007,
+    "production": 2.0,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 2010,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 2020,
+    "production": 1.3,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "year": 2023,
+    "production": 0.9,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 1975,
+    "production": 0.1,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 1980,
+    "production": 1.6,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 1990,
+    "production": 1.8,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 1999,
+    "production": 2.9,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 2000,
+    "production": 2.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 2010,
+    "production": 1.4,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 2020,
+    "production": 1.0,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom",
+    "year": 2023,
+    "production": 0.7,
+    "source": "bp_statistical",
+    "is_opec": false
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 1965,
+    "production": 3.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 1970,
+    "production": 3.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 1980,
+    "production": 2.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 1990,
+    "production": 2.1,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 1998,
+    "production": 3.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 2000,
+    "production": 3.2,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 2010,
+    "production": 2.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 2015,
+    "production": 2.4,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 2020,
+    "production": 0.5,
+    "source": "bp_statistical",
+    "is_opec": true
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela",
+    "year": 2023,
+    "production": 0.7,
+    "source": "bp_statistical",
+    "is_opec": true
+  }
+]

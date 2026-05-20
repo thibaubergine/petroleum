@@ -1,0 +1,458 @@
+[
+  {
+    "date": "1970-01-01",
+    "benchmark": "brent",
+    "nominal": 1.8,
+    "real_2023": 13.5
+  },
+  {
+    "date": "1970-01-01",
+    "benchmark": "wti",
+    "nominal": 1.8,
+    "real_2023": 13.5
+  },
+  {
+    "date": "1973-01-01",
+    "benchmark": "brent",
+    "nominal": 3.29,
+    "real_2023": 22.0
+  },
+  {
+    "date": "1974-01-01",
+    "benchmark": "brent",
+    "nominal": 11.58,
+    "real_2023": 70.0
+  },
+  {
+    "date": "1974-01-01",
+    "benchmark": "wti",
+    "nominal": 10.41,
+    "real_2023": 62.8
+  },
+  {
+    "date": "1979-01-01",
+    "benchmark": "brent",
+    "nominal": 31.61,
+    "real_2023": 130.0
+  },
+  {
+    "date": "1980-01-01",
+    "benchmark": "brent",
+    "nominal": 36.83,
+    "real_2023": 135.0
+  },
+  {
+    "date": "1980-01-01",
+    "benchmark": "wti",
+    "nominal": 37.42,
+    "real_2023": 137.0
+  },
+  {
+    "date": "1985-01-01",
+    "benchmark": "brent",
+    "nominal": 27.56,
+    "real_2023": 76.0
+  },
+  {
+    "date": "1985-01-01",
+    "benchmark": "wti",
+    "nominal": 26.92,
+    "real_2023": 74.0
+  },
+  {
+    "date": "1986-01-01",
+    "benchmark": "brent",
+    "nominal": 14.43,
+    "real_2023": 38.0
+  },
+  {
+    "date": "1986-01-01",
+    "benchmark": "wti",
+    "nominal": 14.64,
+    "real_2023": 39.0
+  },
+  {
+    "date": "1990-01-01",
+    "benchmark": "brent",
+    "nominal": 23.73,
+    "real_2023": 54.0
+  },
+  {
+    "date": "1990-01-01",
+    "benchmark": "wti",
+    "nominal": 24.5,
+    "real_2023": 56.0
+  },
+  {
+    "date": "1991-01-01",
+    "benchmark": "brent",
+    "nominal": 20.0,
+    "real_2023": 44.0
+  },
+  {
+    "date": "1998-01-01",
+    "benchmark": "brent",
+    "nominal": 12.72,
+    "real_2023": 22.0
+  },
+  {
+    "date": "1998-01-01",
+    "benchmark": "wti",
+    "nominal": 14.42,
+    "real_2023": 25.0
+  },
+  {
+    "date": "1998-01-01",
+    "benchmark": "dubai",
+    "nominal": 11.91,
+    "real_2023": 20.5
+  },
+  {
+    "date": "2000-01-01",
+    "benchmark": "brent",
+    "nominal": 28.5,
+    "real_2023": 48.0
+  },
+  {
+    "date": "2000-01-01",
+    "benchmark": "wti",
+    "nominal": 30.38,
+    "real_2023": 51.0
+  },
+  {
+    "date": "2000-01-01",
+    "benchmark": "dubai",
+    "nominal": 26.2,
+    "real_2023": 44.0
+  },
+  {
+    "date": "2003-01-01",
+    "benchmark": "brent",
+    "nominal": 28.83,
+    "real_2023": 46.0
+  },
+  {
+    "date": "2003-01-01",
+    "benchmark": "wti",
+    "nominal": 31.08,
+    "real_2023": 50.0
+  },
+  {
+    "date": "2005-01-01",
+    "benchmark": "brent",
+    "nominal": 54.52,
+    "real_2023": 82.0
+  },
+  {
+    "date": "2005-01-01",
+    "benchmark": "wti",
+    "nominal": 56.64,
+    "real_2023": 85.0
+  },
+  {
+    "date": "2005-01-01",
+    "benchmark": "dubai",
+    "nominal": 50.21,
+    "real_2023": 76.0
+  },
+  {
+    "date": "2008-01-01",
+    "benchmark": "brent",
+    "nominal": 97.26,
+    "real_2023": 135.0
+  },
+  {
+    "date": "2008-01-01",
+    "benchmark": "wti",
+    "nominal": 99.67,
+    "real_2023": 138.0
+  },
+  {
+    "date": "2008-01-01",
+    "benchmark": "dubai",
+    "nominal": 94.34,
+    "real_2023": 131.0
+  },
+  {
+    "date": "2009-01-01",
+    "benchmark": "brent",
+    "nominal": 61.67,
+    "real_2023": 86.0
+  },
+  {
+    "date": "2009-01-01",
+    "benchmark": "wti",
+    "nominal": 61.95,
+    "real_2023": 86.5
+  },
+  {
+    "date": "2010-01-01",
+    "benchmark": "brent",
+    "nominal": 79.5,
+    "real_2023": 108.0
+  },
+  {
+    "date": "2010-01-01",
+    "benchmark": "wti",
+    "nominal": 79.48,
+    "real_2023": 108.0
+  },
+  {
+    "date": "2010-01-01",
+    "benchmark": "dubai",
+    "nominal": 78.06,
+    "real_2023": 106.0
+  },
+  {
+    "date": "2011-01-01",
+    "benchmark": "brent",
+    "nominal": 111.26,
+    "real_2023": 146.0
+  },
+  {
+    "date": "2011-01-01",
+    "benchmark": "wti",
+    "nominal": 95.0,
+    "real_2023": 125.0
+  },
+  {
+    "date": "2011-01-01",
+    "benchmark": "dubai",
+    "nominal": 106.18,
+    "real_2023": 140.0
+  },
+  {
+    "date": "2012-01-01",
+    "benchmark": "brent",
+    "nominal": 111.67,
+    "real_2023": 143.0
+  },
+  {
+    "date": "2012-01-01",
+    "benchmark": "wti",
+    "nominal": 94.2,
+    "real_2023": 121.0
+  },
+  {
+    "date": "2012-01-01",
+    "benchmark": "dubai",
+    "nominal": 109.08,
+    "real_2023": 140.0
+  },
+  {
+    "date": "2013-01-01",
+    "benchmark": "brent",
+    "nominal": 108.66,
+    "real_2023": 136.0
+  },
+  {
+    "date": "2013-01-01",
+    "benchmark": "wti",
+    "nominal": 97.98,
+    "real_2023": 122.5
+  },
+  {
+    "date": "2013-01-01",
+    "benchmark": "dubai",
+    "nominal": 105.5,
+    "real_2023": 132.0
+  },
+  {
+    "date": "2014-01-01",
+    "benchmark": "brent",
+    "nominal": 99.45,
+    "real_2023": 122.0
+  },
+  {
+    "date": "2014-01-01",
+    "benchmark": "wti",
+    "nominal": 93.17,
+    "real_2023": 114.0
+  },
+  {
+    "date": "2014-01-01",
+    "benchmark": "dubai",
+    "nominal": 96.65,
+    "real_2023": 118.5
+  },
+  {
+    "date": "2015-01-01",
+    "benchmark": "brent",
+    "nominal": 52.39,
+    "real_2023": 63.0
+  },
+  {
+    "date": "2015-01-01",
+    "benchmark": "wti",
+    "nominal": 48.66,
+    "real_2023": 58.5
+  },
+  {
+    "date": "2015-01-01",
+    "benchmark": "dubai",
+    "nominal": 51.23,
+    "real_2023": 62.0
+  },
+  {
+    "date": "2016-01-01",
+    "benchmark": "brent",
+    "nominal": 43.73,
+    "real_2023": 52.0
+  },
+  {
+    "date": "2016-01-01",
+    "benchmark": "wti",
+    "nominal": 43.29,
+    "real_2023": 51.5
+  },
+  {
+    "date": "2016-01-01",
+    "benchmark": "dubai",
+    "nominal": 41.2,
+    "real_2023": 49.0
+  },
+  {
+    "date": "2017-01-01",
+    "benchmark": "brent",
+    "nominal": 54.19,
+    "real_2023": 63.0
+  },
+  {
+    "date": "2017-01-01",
+    "benchmark": "wti",
+    "nominal": 50.85,
+    "real_2023": 59.0
+  },
+  {
+    "date": "2017-01-01",
+    "benchmark": "dubai",
+    "nominal": 53.13,
+    "real_2023": 62.0
+  },
+  {
+    "date": "2018-01-01",
+    "benchmark": "brent",
+    "nominal": 71.31,
+    "real_2023": 81.0
+  },
+  {
+    "date": "2018-01-01",
+    "benchmark": "wti",
+    "nominal": 65.23,
+    "real_2023": 74.0
+  },
+  {
+    "date": "2018-01-01",
+    "benchmark": "dubai",
+    "nominal": 69.47,
+    "real_2023": 79.0
+  },
+  {
+    "date": "2019-01-01",
+    "benchmark": "brent",
+    "nominal": 64.21,
+    "real_2023": 71.5
+  },
+  {
+    "date": "2019-01-01",
+    "benchmark": "wti",
+    "nominal": 57.03,
+    "real_2023": 63.5
+  },
+  {
+    "date": "2019-01-01",
+    "benchmark": "dubai",
+    "nominal": 63.42,
+    "real_2023": 70.5
+  },
+  {
+    "date": "2020-01-01",
+    "benchmark": "brent",
+    "nominal": 43.21,
+    "real_2023": 47.0
+  },
+  {
+    "date": "2020-01-01",
+    "benchmark": "wti",
+    "nominal": 39.57,
+    "real_2023": 43.0
+  },
+  {
+    "date": "2020-01-01",
+    "benchmark": "dubai",
+    "nominal": 42.34,
+    "real_2023": 46.0
+  },
+  {
+    "date": "2021-01-01",
+    "benchmark": "brent",
+    "nominal": 70.68,
+    "real_2023": 74.0
+  },
+  {
+    "date": "2021-01-01",
+    "benchmark": "wti",
+    "nominal": 68.14,
+    "real_2023": 71.5
+  },
+  {
+    "date": "2021-01-01",
+    "benchmark": "dubai",
+    "nominal": 69.32,
+    "real_2023": 72.5
+  },
+  {
+    "date": "2022-01-01",
+    "benchmark": "brent",
+    "nominal": 101.24,
+    "real_2023": 105.0
+  },
+  {
+    "date": "2022-01-01",
+    "benchmark": "wti",
+    "nominal": 94.53,
+    "real_2023": 98.0
+  },
+  {
+    "date": "2022-01-01",
+    "benchmark": "dubai",
+    "nominal": 98.71,
+    "real_2023": 102.5
+  },
+  {
+    "date": "2023-01-01",
+    "benchmark": "brent",
+    "nominal": 82.17,
+    "real_2023": 82.17
+  },
+  {
+    "date": "2023-01-01",
+    "benchmark": "wti",
+    "nominal": 78.45,
+    "real_2023": 78.45
+  },
+  {
+    "date": "2023-01-01",
+    "benchmark": "dubai",
+    "nominal": 80.34,
+    "real_2023": 80.34
+  },
+  {
+    "date": "2024-01-01",
+    "benchmark": "brent",
+    "nominal": 85.0,
+    "real_2023": 83.5
+  },
+  {
+    "date": "2024-01-01",
+    "benchmark": "wti",
+    "nominal": 80.0,
+    "real_2023": 78.5
+  },
+  {
+    "date": "2024-01-01",
+    "benchmark": "dubai",
+    "nominal": 83.0,
+    "real_2023": 81.5
+  }
+]

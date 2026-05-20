@@ -56,7 +56,7 @@ const DIRECTION_COLOR: Record<string, string> = {
 function useLatestSnapshot() {
   return useQuery({
     queryKey: ['market-latest'],
-    queryFn: () => api.get('/market/latest').then(r => r.data),
+    queryFn: () => fetch('/data/market_latest.json').then(r => r.json()),
     staleTime: 60 * 60 * 1000,
     retry: false,
   });
@@ -65,7 +65,7 @@ function useLatestSnapshot() {
 function usePriceHistory(weeks = 26) {
   return useQuery({
     queryKey: ['market-price-history', weeks],
-    queryFn: () => api.get(`/market/price-history?weeks=${weeks}`).then(r => r.data),
+    queryFn: () => fetch('/data/market_price_history.json').then(r => r.json()).then(d => d.slice(-weeks)),
     staleTime: 60 * 60 * 1000,
     retry: false,
   });
@@ -74,7 +74,7 @@ function usePriceHistory(weeks = 26) {
 function useEventsTimeline(weeks = 26) {
   return useQuery({
     queryKey: ['market-events-timeline', weeks],
-    queryFn: () => api.get(`/market/events/timeline?weeks=${weeks}`).then(r => r.data),
+    queryFn: () => fetch('/data/events.json').then(r => r.json()).then(evs => { const byWeek: Record<string, any[]> = {}; evs.forEach((e: any) => { const wk = e.event_date?.slice(0,7) || 'unknown'; if (!byWeek[wk]) byWeek[wk] = []; byWeek[wk].push({date: e.event_date, title: e.title, type: e.event_type, region: e.region, impact: e.impact, direction: e.impact_direction, price_impact: e.estimated_price_impact}); }); return Object.entries(byWeek).map(([week, events]) => ({week, events})); }),
     staleTime: 60 * 60 * 1000,
     retry: false,
   });
@@ -83,7 +83,7 @@ function useEventsTimeline(weeks = 26) {
 function useAllEvents(weeks = 26) {
   return useQuery({
     queryKey: ['market-events', weeks],
-    queryFn: () => api.get(`/market/events?since_weeks=${weeks}&limit=100`).then(r => r.data),
+    queryFn: () => fetch('/data/events.json').then(r => r.json()),
     staleTime: 60 * 60 * 1000,
     retry: false,
   });
@@ -93,7 +93,7 @@ function useAllEvents(weeks = 26) {
 function useGasolineLatest() {
   return useQuery({
     queryKey: ['gasoline-latest'],
-    queryFn: () => api.get('/market/gasoline/latest-by-country').then(r => r.data),
+    queryFn: () => Promise.resolve([]),
     staleTime: 60 * 60 * 1000,
     retry: false,
   });

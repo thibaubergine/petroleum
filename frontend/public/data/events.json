@@ -1,0 +1,389 @@
+[
+  {
+    "id": 0,
+    "event_date": "2011-02-15",
+    "title": "Guerre Civile Libye 2011",
+    "summary": "Révolution libyenne contre Kadhafi. Production effondrée de 1.6 à 0.3 mb/d",
+    "event_type": "war",
+    "region": "global",
+    "impact": -1.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "bp": "BP Statistical Review",
+      "eia": "EIA"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2014-07-01",
+    "title": "Deuxième Guerre Civile Libye",
+    "summary": "Conflit entre gouvernements rivaux. Production instable 0.2-1.0 mb/d",
+    "event_type": "war",
+    "region": "global",
+    "impact": -1.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "opec": "OPEC Monthly"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1980-09-22",
+    "title": "Guerre Iran-Irak",
+    "summary": "Guerre de 8 ans. Production irakienne chute de 2.6 à 1.0 mb/d",
+    "event_type": "war",
+    "region": "global",
+    "impact": -2.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "bp": "BP Historical"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1990-08-02",
+    "title": "Invasion du Koweït",
+    "summary": "Guerre du Golfe. Production irakienne + koweïtienne interrompue",
+    "event_type": "war",
+    "region": "global",
+    "impact": -3.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "bp": "BP",
+      "iea": "IEA Gulf War Report"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2003-03-20",
+    "title": "Invasion de l'Irak 2003",
+    "summary": "Guerre USA-Irak. Production chute temporairement à 1.3 mb/d",
+    "event_type": "war",
+    "region": "global",
+    "impact": -2.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "eia": "EIA Iraq Report"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2006-01-01",
+    "title": "Militants Delta du Niger",
+    "summary": "Attaques MEND sur infrastructures. Production réduite de 2.6 à 1.8 mb/d",
+    "event_type": "war",
+    "region": "global",
+    "impact": -0.8,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "platts": "Platts"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1979-01-16",
+    "title": "Révolution Iranienne",
+    "summary": "Chute du Shah. Production s'effondre de 6.0 à 1.5 mb/d",
+    "event_type": "revolution",
+    "region": "global",
+    "impact": -4.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "bp": "BP",
+      "aramco": "Aramco Historical"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2012-07-01",
+    "title": "Sanctions UE/USA 2012",
+    "summary": "Embargo pétrolier UE + sanctions bancaires USA. Production -30%",
+    "event_type": "sanctions",
+    "region": "global",
+    "impact": -1.2,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "eia": "EIA Iran Sanctions"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2018-05-08",
+    "title": "Retrait JCPOA Trump",
+    "summary": "USA sortent accord nucléaire. Sanctions maximales. Production 4.0 → 2.0 mb/d",
+    "event_type": "sanctions",
+    "region": "global",
+    "impact": -2.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "eia": "EIA",
+      "tanker_trackers": "Tanker Trackers"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2022-02-24",
+    "title": "Sanctions Ukraine War",
+    "summary": "Sanctions UE/G7 post-invasion. Réorientation vers Chine/Inde",
+    "event_type": "sanctions",
+    "region": "global",
+    "impact": -0.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "iea": "IEA OMR",
+      "crea": "CREA"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2017-08-25",
+    "title": "Sanctions Venezuela",
+    "summary": "Sanctions USA secteur pétrolier. Production 2.4 → 0.5 mb/d (effondrement)",
+    "event_type": "sanctions",
+    "region": "global",
+    "impact": -2.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "opec": "OPEC",
+      "eia": "EIA"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1990-08-06",
+    "title": "Embargo ONU Irak",
+    "summary": "Embargo total 1990-2003. Production limitée Oil-for-Food",
+    "event_type": "sanctions",
+    "region": "global",
+    "impact": -2.8,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "un": "UN Security Council"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1968-03-13",
+    "title": "Prudhoe Bay Alaska",
+    "summary": "Plus grand champ USA. 25 Gb réserves. Production peak 2.0 mb/d (1988)",
+    "event_type": "discovery",
+    "region": "global",
+    "impact": 1.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "usgs": "USGS"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1976-06-03",
+    "title": "Cantarell Field",
+    "summary": "Plus grand champ Mexique. 35 Gb. Production peak 2.1 mb/d (2004)",
+    "event_type": "discovery",
+    "region": "global",
+    "impact": 2.1,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "pemex": "Pemex"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2000-07-01",
+    "title": "Kashagan Field",
+    "summary": "Plus grande découverte 30 ans. 13 Gb. Très difficile (H2S, pression)",
+    "event_type": "discovery",
+    "region": "global",
+    "impact": 1.6,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "eni": "ENI",
+      "total": "TotalEnergies"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2007-11-08",
+    "title": "Tupi Pre-Salt",
+    "summary": "Premier champ pre-salt. 8 Gb. Révolution offshore Brésil",
+    "event_type": "discovery",
+    "region": "global",
+    "impact": 0.8,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "petrobras": "Petrobras"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2010-10-26",
+    "title": "Libra Pre-Salt",
+    "summary": "Plus grand champ pre-salt. 12 Gb récupérables",
+    "event_type": "discovery",
+    "region": "global",
+    "impact": 1.2,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "petrobras": "Petrobras"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2008-01-01",
+    "title": "Révolution Shale USA",
+    "summary": "Fracturation hydraulique massive. Production USA +8 mb/d (2008-2020)",
+    "event_type": "discovery",
+    "region": "global",
+    "impact": 8.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "eia": "EIA Shale Report"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1988-07-06",
+    "title": "Piper Alpha",
+    "summary": "167 morts. Plateforme détruite. Régulations offshore renforcées",
+    "event_type": "accident",
+    "region": "global",
+    "impact": -0.3,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "hse": "UK HSE"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2010-04-20",
+    "title": "Deepwater Horizon",
+    "summary": "11 morts. 4.9M barils déversés. Moratoire deepwater USA",
+    "event_type": "accident",
+    "region": "global",
+    "impact": -0.2,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "doi": "US Dept Interior"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "1985-09-01",
+    "title": "Saudi Arabia Market Share War",
+    "summary": "Arabie abandonne swing producer. Production 3.2 → 7.0 mb/d. Prix crash",
+    "event_type": "policy",
+    "region": "global",
+    "impact": 4.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "aramco": "Aramco",
+      "opec": "OPEC"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2014-11-27",
+    "title": "OPEC Refuse de Couper",
+    "summary": "OPEC maintient production face au shale USA. Prix $100 → $40",
+    "event_type": "policy",
+    "region": "global",
+    "impact": 0.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "opec": "OPEC Meeting Minutes"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2020-03-09",
+    "title": "Saudi-Russia Price War",
+    "summary": "Guerre des prix COVID. Production +3 mb/d. Prix WTI négatif",
+    "event_type": "policy",
+    "region": "global",
+    "impact": 3.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "bloomberg": "Bloomberg"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2003-01-01",
+    "title": "Nationalisation Chávez",
+    "summary": "Prise contrôle PDVSA. Exode expertise. Début du déclin",
+    "event_type": "policy",
+    "region": "global",
+    "impact": -0.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "opec": "OPEC"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2005-08-29",
+    "title": "Hurricane Katrina",
+    "summary": "Dégâts massifs Golfe du Mexique. 95% production offshore arrêtée",
+    "event_type": "accident",
+    "region": "global",
+    "impact": -1.5,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "noaa": "NOAA",
+      "eia": "EIA"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2017-08-25",
+    "title": "Hurricane Harvey",
+    "summary": "Raffineries Texas fermées. Production réduite temporairement",
+    "event_type": "accident",
+    "region": "global",
+    "impact": -1.0,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "eia": "EIA"
+    }
+  },
+  {
+    "id": 0,
+    "event_date": "2020-04-01",
+    "title": "OPEC+ Cut historique COVID",
+    "summary": "Plus grande coupe OPEC+. -9.7 mb/d pour soutenir prix",
+    "event_type": "policy",
+    "region": "global",
+    "impact": -9.7,
+    "impact_direction": "up",
+    "estimated_price_impact": 0,
+    "sources": {
+      "opec": "OPEC+ Agreement"
+    }
+  }
+]

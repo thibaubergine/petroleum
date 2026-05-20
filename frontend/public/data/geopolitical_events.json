@@ -1,0 +1,362 @@
+[
+  {
+    "country_code": "LBY",
+    "date": "2011-02-15",
+    "type": "war",
+    "name": "Guerre Civile Libye 2011",
+    "impact": -1.5,
+    "duration_days": 180,
+    "severity": 5,
+    "description": "R\u00e9volution libyenne contre Kadhafi. Production effondr\u00e9e de 1.6 \u00e0 0.3 mb/d",
+    "sources": {
+      "bp": "BP Statistical Review",
+      "eia": "EIA"
+    }
+  },
+  {
+    "country_code": "LBY",
+    "date": "2014-07-01",
+    "type": "war",
+    "name": "Deuxi\u00e8me Guerre Civile Libye",
+    "impact": -1.0,
+    "duration_days": 730,
+    "severity": 4,
+    "description": "Conflit entre gouvernements rivaux. Production instable 0.2-1.0 mb/d",
+    "sources": {
+      "opec": "OPEC Monthly"
+    }
+  },
+  {
+    "country_code": "IRQ",
+    "date": "1980-09-22",
+    "type": "war",
+    "name": "Guerre Iran-Irak",
+    "impact": -2.5,
+    "duration_days": 2922,
+    "severity": 5,
+    "description": "Guerre de 8 ans. Production irakienne chute de 2.6 \u00e0 1.0 mb/d",
+    "sources": {
+      "bp": "BP Historical"
+    }
+  },
+  {
+    "country_code": "IRQ",
+    "date": "1990-08-02",
+    "type": "war",
+    "name": "Invasion du Kowe\u00eft",
+    "impact": -3.0,
+    "duration_days": 210,
+    "severity": 5,
+    "description": "Guerre du Golfe. Production irakienne + kowe\u00eftienne interrompue",
+    "sources": {
+      "bp": "BP",
+      "iea": "IEA Gulf War Report"
+    }
+  },
+  {
+    "country_code": "IRQ",
+    "date": "2003-03-20",
+    "type": "war",
+    "name": "Invasion de l'Irak 2003",
+    "impact": -2.0,
+    "duration_days": 90,
+    "severity": 5,
+    "description": "Guerre USA-Irak. Production chute temporairement \u00e0 1.3 mb/d",
+    "sources": {
+      "eia": "EIA Iraq Report"
+    }
+  },
+  {
+    "country_code": "NGA",
+    "date": "2006-01-01",
+    "type": "war",
+    "name": "Militants Delta du Niger",
+    "impact": -0.8,
+    "duration_days": 1460,
+    "severity": 3,
+    "description": "Attaques MEND sur infrastructures. Production r\u00e9duite de 2.6 \u00e0 1.8 mb/d",
+    "sources": {
+      "platts": "Platts"
+    }
+  },
+  {
+    "country_code": "IRN",
+    "date": "1979-01-16",
+    "type": "revolution",
+    "name": "R\u00e9volution Iranienne",
+    "impact": -4.5,
+    "duration_days": 365,
+    "severity": 5,
+    "description": "Chute du Shah. Production s'effondre de 6.0 \u00e0 1.5 mb/d",
+    "sources": {
+      "bp": "BP",
+      "aramco": "Aramco Historical"
+    }
+  },
+  {
+    "country_code": "IRN",
+    "date": "2012-07-01",
+    "type": "sanctions",
+    "name": "Sanctions UE/USA 2012",
+    "impact": -1.2,
+    "duration_days": 1095,
+    "severity": 4,
+    "description": "Embargo p\u00e9trolier UE + sanctions bancaires USA. Production -30%",
+    "sources": {
+      "eia": "EIA Iran Sanctions"
+    }
+  },
+  {
+    "country_code": "IRN",
+    "date": "2018-05-08",
+    "type": "sanctions",
+    "name": "Retrait JCPOA Trump",
+    "impact": -2.0,
+    "duration_days": null,
+    "severity": 5,
+    "description": "USA sortent accord nucl\u00e9aire. Sanctions maximales. Production 4.0 \u2192 2.0 mb/d",
+    "sources": {
+      "eia": "EIA",
+      "tanker_trackers": "Tanker Trackers"
+    }
+  },
+  {
+    "country_code": "RUS",
+    "date": "2022-02-24",
+    "type": "sanctions",
+    "name": "Sanctions Ukraine War",
+    "impact": -0.5,
+    "duration_days": null,
+    "severity": 3,
+    "description": "Sanctions UE/G7 post-invasion. R\u00e9orientation vers Chine/Inde",
+    "sources": {
+      "iea": "IEA OMR",
+      "crea": "CREA"
+    }
+  },
+  {
+    "country_code": "VEN",
+    "date": "2017-08-25",
+    "type": "sanctions",
+    "name": "Sanctions Venezuela",
+    "impact": -2.5,
+    "duration_days": null,
+    "severity": 5,
+    "description": "Sanctions USA secteur p\u00e9trolier. Production 2.4 \u2192 0.5 mb/d (effondrement)",
+    "sources": {
+      "opec": "OPEC",
+      "eia": "EIA"
+    }
+  },
+  {
+    "country_code": "IRQ",
+    "date": "1990-08-06",
+    "type": "sanctions",
+    "name": "Embargo ONU Irak",
+    "impact": -2.8,
+    "duration_days": 4746,
+    "severity": 5,
+    "description": "Embargo total 1990-2003. Production limit\u00e9e Oil-for-Food",
+    "sources": {
+      "un": "UN Security Council"
+    }
+  },
+  {
+    "country_code": "USA",
+    "date": "1968-03-13",
+    "type": "discovery",
+    "name": "Prudhoe Bay Alaska",
+    "impact": 1.5,
+    "duration_days": null,
+    "severity": 4,
+    "description": "Plus grand champ USA. 25 Gb r\u00e9serves. Production peak 2.0 mb/d (1988)",
+    "sources": {
+      "usgs": "USGS"
+    }
+  },
+  {
+    "country_code": "MEX",
+    "date": "1976-06-03",
+    "type": "discovery",
+    "name": "Cantarell Field",
+    "impact": 2.1,
+    "duration_days": null,
+    "severity": 4,
+    "description": "Plus grand champ Mexique. 35 Gb. Production peak 2.1 mb/d (2004)",
+    "sources": {
+      "pemex": "Pemex"
+    }
+  },
+  {
+    "country_code": "KAZ",
+    "date": "2000-07-01",
+    "type": "discovery",
+    "name": "Kashagan Field",
+    "impact": 1.6,
+    "duration_days": null,
+    "severity": 3,
+    "description": "Plus grande d\u00e9couverte 30 ans. 13 Gb. Tr\u00e8s difficile (H2S, pression)",
+    "sources": {
+      "eni": "ENI",
+      "total": "TotalEnergies"
+    }
+  },
+  {
+    "country_code": "BRA",
+    "date": "2007-11-08",
+    "type": "discovery",
+    "name": "Tupi Pre-Salt",
+    "impact": 0.8,
+    "duration_days": null,
+    "severity": 4,
+    "description": "Premier champ pre-salt. 8 Gb. R\u00e9volution offshore Br\u00e9sil",
+    "sources": {
+      "petrobras": "Petrobras"
+    }
+  },
+  {
+    "country_code": "BRA",
+    "date": "2010-10-26",
+    "type": "discovery",
+    "name": "Libra Pre-Salt",
+    "impact": 1.2,
+    "duration_days": null,
+    "severity": 4,
+    "description": "Plus grand champ pre-salt. 12 Gb r\u00e9cup\u00e9rables",
+    "sources": {
+      "petrobras": "Petrobras"
+    }
+  },
+  {
+    "country_code": "USA",
+    "date": "2008-01-01",
+    "type": "discovery",
+    "name": "R\u00e9volution Shale USA",
+    "impact": 8.0,
+    "duration_days": null,
+    "severity": 5,
+    "description": "Fracturation hydraulique massive. Production USA +8 mb/d (2008-2020)",
+    "sources": {
+      "eia": "EIA Shale Report"
+    }
+  },
+  {
+    "country_code": "GBR",
+    "date": "1988-07-06",
+    "type": "accident",
+    "name": "Piper Alpha",
+    "impact": -0.3,
+    "duration_days": null,
+    "severity": 5,
+    "description": "167 morts. Plateforme d\u00e9truite. R\u00e9gulations offshore renforc\u00e9es",
+    "sources": {
+      "hse": "UK HSE"
+    }
+  },
+  {
+    "country_code": "USA",
+    "date": "2010-04-20",
+    "type": "accident",
+    "name": "Deepwater Horizon",
+    "impact": -0.2,
+    "duration_days": 87,
+    "severity": 5,
+    "description": "11 morts. 4.9M barils d\u00e9vers\u00e9s. Moratoire deepwater USA",
+    "sources": {
+      "doi": "US Dept Interior"
+    }
+  },
+  {
+    "country_code": "SAU",
+    "date": "1985-09-01",
+    "type": "policy",
+    "name": "Saudi Arabia Market Share War",
+    "impact": 4.0,
+    "duration_days": 365,
+    "severity": 4,
+    "description": "Arabie abandonne swing producer. Production 3.2 \u2192 7.0 mb/d. Prix crash",
+    "sources": {
+      "aramco": "Aramco",
+      "opec": "OPEC"
+    }
+  },
+  {
+    "country_code": "SAU",
+    "date": "2014-11-27",
+    "type": "policy",
+    "name": "OPEC Refuse de Couper",
+    "impact": 0.0,
+    "duration_days": 730,
+    "severity": 3,
+    "description": "OPEC maintient production face au shale USA. Prix $100 \u2192 $40",
+    "sources": {
+      "opec": "OPEC Meeting Minutes"
+    }
+  },
+  {
+    "country_code": "SAU",
+    "date": "2020-03-09",
+    "type": "policy",
+    "name": "Saudi-Russia Price War",
+    "impact": 3.0,
+    "duration_days": 30,
+    "severity": 4,
+    "description": "Guerre des prix COVID. Production +3 mb/d. Prix WTI n\u00e9gatif",
+    "sources": {
+      "bloomberg": "Bloomberg"
+    }
+  },
+  {
+    "country_code": "VEN",
+    "date": "2003-01-01",
+    "type": "policy",
+    "name": "Nationalisation Ch\u00e1vez",
+    "impact": -0.5,
+    "duration_days": null,
+    "severity": 3,
+    "description": "Prise contr\u00f4le PDVSA. Exode expertise. D\u00e9but du d\u00e9clin",
+    "sources": {
+      "opec": "OPEC"
+    }
+  },
+  {
+    "country_code": "USA",
+    "date": "2005-08-29",
+    "type": "accident",
+    "name": "Hurricane Katrina",
+    "impact": -1.5,
+    "duration_days": 180,
+    "severity": 4,
+    "description": "D\u00e9g\u00e2ts massifs Golfe du Mexique. 95% production offshore arr\u00eat\u00e9e",
+    "sources": {
+      "noaa": "NOAA",
+      "eia": "EIA"
+    }
+  },
+  {
+    "country_code": "USA",
+    "date": "2017-08-25",
+    "type": "accident",
+    "name": "Hurricane Harvey",
+    "impact": -1.0,
+    "duration_days": 14,
+    "severity": 3,
+    "description": "Raffineries Texas ferm\u00e9es. Production r\u00e9duite temporairement",
+    "sources": {
+      "eia": "EIA"
+    }
+  },
+  {
+    "country_code": "SAU",
+    "date": "2020-04-01",
+    "type": "policy",
+    "name": "OPEC+ Cut historique COVID",
+    "impact": -9.7,
+    "duration_days": 90,
+    "severity": 5,
+    "description": "Plus grande coupe OPEC+. -9.7 mb/d pour soutenir prix",
+    "sources": {
+      "opec": "OPEC+ Agreement"
+    }
+  }
+]

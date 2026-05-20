@@ -1,0 +1,17 @@
+{
+  "week_start": "2025-05-12",
+  "brent_price": 83.4,
+  "wti_price": 79.2,
+  "brent_change_1w": -1.2,
+  "gasoline_usa": 3.52,
+  "gasoline_eu_avg": 1.68,
+  "baltic_dry_index": 1420,
+  "usd_index": 104.3,
+  "ai_summary": "Les marchés pétroliers restent sous pression avec des incertitudes macroéconomiques persistantes. Le Brent se stabilise autour de 83$/b malgré les tensions géopolitiques au Moyen-Orient.",
+  "ai_key_events": [
+    "Réunion OPEP+ : maintien des quotas de production",
+    "Demande chinoise en légère reprise au T1 2025",
+    "Stocks américains en hausse de 2,3 Mb"
+  ],
+  "note": "Données indicatives — mise à jour manuelle hebdomadaire"
+}
