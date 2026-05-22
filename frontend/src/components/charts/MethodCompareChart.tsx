@@ -46,7 +46,7 @@ interface Props {
 function buildYearPoint(data: ProductionByMethod[], year: number) {
   const yearData = data.filter(d => d.year === year);
   const point: Record<string, number> = {};
-  yearData.forEach(d => { point[d.method] = Number(d.production_mb_d); });
+  yearData.forEach(d => { point[d.method] = Number(d.production_value); });
   return point;
 }
 
@@ -74,7 +74,7 @@ export default function MethodCompareChart({ dataUSA, dataCAN, dataSAU, latestYe
       const yearData = data.filter(d => d.year === latestYear);
       let total = 0;
       yearData.forEach(d => {
-        const val = Number(d.production_mb_d);
+        const val = Number(d.production_value);
         point[d.method] = val;
         total += val;
       });

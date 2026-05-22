@@ -93,7 +93,7 @@ function useAllEvents(weeks = 26) {
 function useGasolineLatest() {
   return useQuery({
     queryKey: ['gasoline-latest'],
-    queryFn: () => Promise.resolve([]),
+    queryFn: (): Promise<any[]> => Promise.resolve([]),
     staleTime: 60 * 60 * 1000,
     retry: false,
   });

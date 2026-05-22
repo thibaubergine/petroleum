@@ -119,8 +119,10 @@ export default function Analytics() {
         .filter(d => d.country_code === code)
         .sort((a, b) => a.year - b.year);
 
-      const row: Record<string, number | null> = { country: 0 };
+      const row: { code: string; name: string; current: number; [key: string]: number | null | string } = { code, name: COUNTRY_NAMES[code] ?? code, current: 0 };
 
+      const latestData = countryData[countryData.length - 1];
+      row.current = latestData?.production_value ?? 0;
       PERIODS.forEach(period => {
         const [y1, y2] = PERIOD_YEARS[period];
         const v1 = countryData.find(d => d.year === y1)?.production_value;
