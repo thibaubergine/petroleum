@@ -119,7 +119,7 @@ export default function Analytics() {
         .filter(d => d.country_code === code)
         .sort((a, b) => a.year - b.year);
 
-      const row: { code: string; name: string; current: number; [key: string]: number | null | string } = { code, name: COUNTRY_NAMES[code] ?? code, current: 0 };
+      const row: Record<string, number | string | null> = { code, name: COUNTRY_NAMES[code] ?? code, current: 0 };
 
       const latestData = countryData[countryData.length - 1];
       row.current = latestData?.production_value ?? 0;
@@ -144,12 +144,7 @@ export default function Analytics() {
         row['total'] = Math.round((Math.pow(last.production_value / first.production_value, 1/years) - 1) * 100 * 10) / 10;
       }
 
-      return {
-        code,
-        name: COUNTRY_NAMES[code] ?? code,
-        current: last?.production_value ?? 0,
-        ...row,
-      };
+      return row;
     }).sort((a, b) => (b.current as number) - (a.current as number));
   }, [histData]);
 
