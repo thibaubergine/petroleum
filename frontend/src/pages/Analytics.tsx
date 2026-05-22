@@ -189,12 +189,12 @@ export default function Analytics() {
                       <td className="py-2 pr-3">
                         <div className="flex items-center gap-2">
                           <div className="w-2.5 h-2.5 rounded-full shrink-0"
-                            style={{ backgroundColor: COUNTRY_COLORS[row.code] ?? '#8E7F6B' }} />
+                            style={{ backgroundColor: COUNTRY_COLORS[row.code as string] ?? '#8E7F6B' }} />
                           <span className="font-semibold text-oil-slate">{row.name}</span>
                         </div>
                       </td>
                       <td className="py-2 px-2 text-right font-mono font-bold text-oil-slate">
-                        {row.current.toFixed(1)}
+                        {(row.current as number)?.toFixed(1) ?? 0}
                       </td>
                       {PERIODS.map(p => {
                         const v = row[p] as number | null;
