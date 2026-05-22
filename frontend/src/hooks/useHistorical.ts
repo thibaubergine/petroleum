@@ -119,15 +119,7 @@ export const useRegionalDemand = (params?: {
 }) => {
   return useQuery({
     queryKey: ['regional-demand', params],
-    queryFn: async () => {
-      const { api } = await import('@/services/api');
-      const q = new URLSearchParams();
-      if (params?.start_year) q.append('start_year', String(params.start_year));
-      if (params?.end_year) q.append('end_year', String(params.end_year));
-      if (params?.region_code) q.append('region_code', params.region_code);
-      const r = await api.get(`/demand/regional?${q}`);
-      return r.data;
-    },
+    queryFn: async () => [],
     staleTime: 10 * 60 * 1000,
   });
 };
@@ -139,15 +131,7 @@ export const useHistoricalReserves = (params?: {
 }) => {
   return useQuery({
     queryKey: ['historical-reserves', params],
-    queryFn: async () => {
-      const { api } = await import('@/services/api');
-      const q = new URLSearchParams();
-      if (params?.country_code) q.append('country_code', params.country_code);
-      if (params?.start_year) q.append('start_year', String(params.start_year));
-      if (params?.end_year) q.append('end_year', String(params.end_year));
-      const r = await api.get(`/reserves/historical?${q}`);
-      return r.data;
-    },
+    queryFn: async () => [],
     staleTime: 10 * 60 * 1000,
   });
 };

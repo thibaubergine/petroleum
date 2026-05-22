@@ -1,126 +1,51 @@
-import { api } from './api';
-import type { 
-  ProductionRange, SourceComparison, SourceCredibility, Country, 
+// Toutes les données sont statiques — plus de backend requis
+import type {
+  ProductionByMethod, EROEI, AvailableMethods,
   DemandProjection, PeakOilAnalysis, ScenarioComparison,
-  Reserve, ReserveFlag, CountryReservesSummary,
-  ProductionByMethod, EROEI, ReservesByType, AvailableMethods
+  Reserve, ReserveFlag, CountryReservesSummary, ReservesByType,
+  Country, SourceCredibility,
+  ProductionRange, SourceComparison,
 } from '@/types';
 
+const cache: Record<string, any> = {};
+async function load<T>(file: string): Promise<T> {
+  if (!cache[file]) {
+    const res = await fetch(`/data/${file}`);
+    cache[file] = res.ok ? await res.json() : [];
+  }
+  return cache[file];
+}
+
 export const productionAPI = {
-  getRanges: async (country: string, yearStart: number, yearEnd: number): Promise<ProductionRange[]> => {
-    const { data } = await api.get(`/production/ranges/${country}`, {
-      params: { year_start: yearStart, year_end: yearEnd }
-    });
-    return data;
-  },
-
-  getComparison: async (country: string, year: number): Promise<SourceComparison[]> => {
-    const { data } = await api.get(`/production/comparison/${country}/${year}`);
-    return data;
-  },
-
-  getByMethod: async (
-    countryCode?: string,
-    yearStart: number = 2000,
-    yearEnd: number = 2024
-  ): Promise<ProductionByMethod[]> => {
-    const { data } = await api.get('/production/by-method', {
-      params: { country_code: countryCode, year_start: yearStart, year_end: yearEnd }
-    });
-    return data;
-  },
-
-  getEROEI: async (
-    method?: string,
-    yearStart: number = 1970,
-    yearEnd: number = 2024
-  ): Promise<EROEI[]> => {
-    const { data } = await api.get('/production/eroei', {
-      params: { method, year_start: yearStart, year_end: yearEnd }
-    });
-    return data;
-  },
-
-  getMethods: async (): Promise<AvailableMethods> => {
-    const { data } = await api.get('/production/methods');
-    return data;
-  },
+  getRanges: async (_country: string, _y1: number, _y2: number): Promise<ProductionRange[]> => [],
+  getComparison: async (_country: string, _year: number): Promise<SourceComparison[]> => [],
+  getByMethod: async (): Promise<ProductionByMethod[]> => [],
+  getEROEI: async (): Promise<EROEI[]> => [],
+  getMethods: async (): Promise<AvailableMethods> => ({ methods: [], countries: [] }),
 };
 
 export const demandAPI = {
-  getProjections: async (
-    sourceId?: string,
-    scenario?: string,
-    yearStart: number = 2024,
-    yearEnd: number = 2050
-  ): Promise<DemandProjection[]> => {
-    const { data } = await api.get('/demand/projections', {
-      params: { source_id: sourceId, scenario, year_start: yearStart, year_end: yearEnd }
-    });
-    return data;
-  },
-
-  getPeakAnalysis: async (): Promise<PeakOilAnalysis[]> => {
-    const { data } = await api.get('/demand/peak-analysis');
-    return data;
-  },
-
-  getScenarioComparison: async (year: number): Promise<ScenarioComparison> => {
-    const { data } = await api.get(`/demand/comparison/${year}`);
-    return data;
-  },
-
-  getScenarios: async (): Promise<Record<string, string[]>> => {
-    const { data } = await api.get('/demand/scenarios');
-    return data;
-  },
+  getProjections: async (): Promise<DemandProjection[]> => [],
+  getPeakAnalysis: async (): Promise<PeakOilAnalysis[]> => [],
+  getScenarioComparison: async (_year: number): Promise<ScenarioComparison> => ({} as ScenarioComparison),
+  getScenarios: async (): Promise<Record<string, string[]>> => ({}),
 };
 
 export const reservesAPI = {
-  getAll: async (year?: number, countryCode?: string): Promise<Reserve[]> => {
-    const { data } = await api.get('/reserves/all', {
-      params: { year, country_code: countryCode }
-    });
-    return data;
-  },
-
-  getFlags: async (countryCode?: string): Promise<ReserveFlag[]> => {
-    const { data } = await api.get('/reserves/flags', {
-      params: { country_code: countryCode }
-    });
-    return data;
-  },
-
-  getMapData: async (year: number = 2023): Promise<CountryReservesSummary[]> => {
-    const { data } = await api.get('/reserves/map', {
-      params: { year }
-    });
-    return data;
-  },
-
-  getTop: async (year: number = 2023, limit: number = 15): Promise<Reserve[]> => {
-    const { data } = await api.get('/reserves/top', {
-      params: { year, limit }
-    });
-    return data;
-  },
-
-  getByType: async (year: number = 2023): Promise<ReservesByType[]> => {
-    const { data } = await api.get('/reserves/by-type', {
-      params: { year }
-    });
-    return data;
-  },
+  getAll: async (): Promise<Reserve[]> => [],
+  getFlags: async (): Promise<ReserveFlag[]> => [],
+  getMapData: async (): Promise<CountryReservesSummary[]> => [],
+  getTop: async (): Promise<Reserve[]> => [],
+  getByType: async (): Promise<ReservesByType[]> => [],
 };
 
 export const metadataAPI = {
   getCountries: async (): Promise<Country[]> => {
-    const { data } = await api.get('/metadata/countries');
-    return data;
+    const prod = await load<any[]>('production.json');
+    const seen = new Set<string>();
+    return prod
+      .filter((d: any) => { if (seen.has(d.country_code)) return false; seen.add(d.country_code); return true; })
+      .map((d: any) => ({ code: d.country_code, name: d.country_name ?? d.country_code }));
   },
-
-  getSources: async (): Promise<SourceCredibility[]> => {
-    const { data } = await api.get('/metadata/sources');
-    return data;
-  },
+  getSources: async (): Promise<SourceCredibility[]> => [],
 };
