@@ -5,7 +5,7 @@ import { useQuery } from '@tanstack/react-query';
 import { api } from '@/services/api';
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, BarChart, Bar, Cell, Legend, AreaChart, Area, ReferenceLine
+  ResponsiveContainer, BarChart, Bar, Cell, Legend, AreaChart, Area
 } from 'recharts';
 import { GRID_STYLE, AXIS_STYLE } from '@/utils/chartColors';
 
@@ -44,7 +44,7 @@ function EnergyMixChart() {
     return ENERGY_MIX_STATIC;
   }, [apiData]);
 
-  const fossilData = chartData.map(d => ({
+  const fossilData = chartData.map((d: any) => ({
     year: d.year,
     fossil: Math.round(d.oil + d.gas + d.coal),
     clean: Math.round(d.nuclear + d.hydro + d.renewables),
@@ -261,7 +261,7 @@ function OrmuzWidget() {
           { pays: 'Chine', pct: '~40%', dep: 'de ses importations' },
           { pays: 'Europe', pct: '~20%', dep: 'de ses importations' },
           { pays: 'USA', pct: '~10%', dep: '(producteur, moins dépendant)' },
-        ].map(d => (
+        ].map((d: any) => (
           <div key={d.pays} className="bg-white/5 rounded-lg p-3">
             <div className="font-bold text-white">{d.pays}</div>
             <div className="text-blue-400 font-black text-lg">{d.pct}</div>
@@ -509,12 +509,12 @@ function PresentContent() {
               <YAxis type="category" dataKey="country" tick={{ fill: '#ffffff70', fontSize: 11 }} axisLine={false} tickLine={false} width={85} />
               <Tooltip contentStyle={{ backgroundColor: '#1a1a2e', border: '1px solid #ffffff20', borderRadius: '8px', fontSize: 11 }}
                 labelStyle={{ color: '#ffffff80' }}
-                formatter={(v: number, n: string, p: any) => [
+                formatter={(v: number, _n: string, p: any) => [
                   `IDH ${v.toFixed(3)} · ${p.payload.label}`,
                   `Réserves: ${p.payload.reserves} Gb`
                 ]} />
               <Bar dataKey="hdi" radius={[0, 4, 4, 0]}>
-                {RESOURCE_DATA.sort((a, b) => b.hdi - a.hdi).map(d => (
+                {RESOURCE_DATA.sort((a, b) => b.hdi - a.hdi).map((d: any) => (
                   <Cell key={d.country} fill={HDI_COLORS[d.label] ?? '#8E7F6B'} />
                 ))}
               </Bar>
@@ -698,7 +698,7 @@ function PresentContent() {
             title="Prix de l'essence par pays — USD/litre"
             subtitle="Du Venezuela à la Norvège — un écart de 1:100">
             <div className="space-y-2">
-              {PUMP_COMPARISON.map(d => {
+              {PUMP_COMPARISON.map((d: any) => {
                 const real = gasolineData.find((g: any) =>
                   g.country_name?.toLowerCase().includes(d.country.toLowerCase()) ||
                   (d.country === 'Arabie S.' && g.country_code === 'SAU') ||
@@ -724,7 +724,7 @@ function PresentContent() {
         ) : (
           <ChartBox title="Prix de l'essence par pays — USD/litre">
             <div className="space-y-2">
-              {PUMP_COMPARISON.map(d => {
+              {PUMP_COMPARISON.map((d: any) => {
                 const pct = (d.price / 2.12) * 100;
                 return (
                   <div key={d.country} className="flex items-center gap-3">
@@ -807,7 +807,7 @@ function PresentContent() {
               { label: 'Offshore profond Brésil',  val: 44,  max: 80, color: '#8B4513', note: 'Pré-sel, 2000m+' },
               { label: 'Sables bitumineux Canada', val: 72,  max: 80, color: '#B85450', note: 'Le plus coûteux en énergie' },
               { label: 'Seuil de rentabilité',     val: 60,  max: 80, color: '#ffffff', note: '≈ prix minimal pour équilibrer budgets saoudiens', isRef: true },
-            ].filter(d => !d.isRef).map(d => (
+            ].filter((d: any) => !d.isRef).map((d: any) => (
               <div key={d.label} className="flex items-center gap-3">
                 <div className="w-44 text-sm text-white/70 text-right shrink-0 leading-tight font-medium">{d.label}</div>
                 <div className="flex-1 h-7 bg-white/5 rounded-lg overflow-hidden relative">
