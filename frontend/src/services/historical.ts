@@ -38,7 +38,16 @@ export const historicalAPI = {
     const seen = new Set<string>();
     return data
       .filter((d: any) => { if (seen.has(d.country_code)) return false; seen.add(d.country_code); return true; })
-      .map((d: any) => ({ code: d.country_code, name: d.country_name ?? d.country_code }));
+      .map((d: any) => ({
+        country_code: d.country_code,
+        country_name: d.country_name ?? d.country_code,
+        code: d.country_code,
+        name: d.country_name ?? d.country_code,
+        start_year: 1965,
+        end_year: 2024,
+        data_points: 0,
+        is_opec_member: false,
+      }));
   },
 
   getAnalytics: async (_params?: { country_code?: string; metric_type?: string }): Promise<any[]> => {
