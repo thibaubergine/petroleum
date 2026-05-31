@@ -146,7 +146,7 @@ function DashboardLayout({ children }: { children: React.ReactNode }) {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter basename="/petroleum">
+      <BrowserRouter>
         <ScrollToTop />
         <Routes>
           {/* ── Pages narratives ── */}
