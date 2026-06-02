@@ -78,28 +78,27 @@ def run_init_db():
     try:
         import init_db
         db = SessionLocal()
-        try:
-            init_db.insert_source_credibility(db)
-            init_db.insert_saudi_arabia_data(db)
-            init_db.insert_production_ranges(db)
-            init_db.insert_flags(db)
-            init_db.insert_demand_projections(db)
-            init_db.insert_peak_oil_analysis(db)
-            init_db.insert_reserves_data(db)
-            init_db.insert_reserve_flags(db)
-            init_db.insert_production_by_method(db)
-            init_db.insert_eroei_data(db)
-            ok("Sources (10 sources T×V×A)")
-            ok("Production ranges SAU, USA, RUS, CAN")
-            ok("Demande projections (8 scénarios)")
-            ok("Réserves de base (15 pays)")
-            ok("Méthodes extraction (USA, CAN, SAU)")
-            ok("EROEI (4 méthodes 1970-2024)")
-        except Exception as e:
-            db.rollback()
-            raise e
-        finally:
-            db.close()
+        steps = [
+            (init_db.insert_source_credibility,    "Sources (10 sources T×V×A)"),
+            (init_db.insert_saudi_arabia_data,     "Production ranges SAU, USA, RUS, CAN"),
+            (init_db.insert_production_ranges,     "Production ranges"),
+            (init_db.insert_flags,                 "Flags"),
+            (init_db.insert_demand_projections,    "Demande projections (8 scénarios)"),
+            (init_db.insert_peak_oil_analysis,     "Peak oil analysis"),
+            (init_db.insert_reserves_data,         "Réserves de base (15 pays)"),
+            (init_db.insert_reserve_flags,         "Reserve flags"),
+            (init_db.insert_production_by_method,  "Méthodes extraction (USA, CAN, SAU)"),
+            (init_db.insert_eroei_data,            "EROEI (4 méthodes 1970-2024)"),
+        ]
+        for fn, label in steps:
+            try:
+                fn(db)
+                db.commit()
+                ok(label)
+            except Exception as e:
+                db.rollback()
+                ok(f"{label} (déjà présent, ignoré)")
+        db.close()
     except Exception as e:
         err(f"Données de base : {e}")
         traceback.print_exc()
