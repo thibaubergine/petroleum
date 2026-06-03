@@ -441,7 +441,7 @@ function PastContent() {
       <TableOfContents chapters={CHAPTERS} />
 
       {/* Toggle sticky */}
-      <div className="sticky top-14 z-40 flex items-center justify-between px-8 py-3 bg-[#0d0d0d]/90 backdrop-blur border-b border-white/5">
+      <div className="sticky top-14 z-40 flex flex-wrap items-center justify-between px-4 md:px-8 py-2 gap-2 bg-[#0d0d0d]/90 backdrop-blur border-b border-white/5">
         <div className="flex items-center gap-3">
           <span className="text-amber-500/60 text-xs uppercase tracking-widest font-bold">Acte I</span>
           <span className="text-white/20 text-xs">1850 → 2024</span>
@@ -586,7 +586,7 @@ function PastContent() {
         </P>
 
         <div className="my-8 p-5 bg-white/5 rounded-2xl border border-white/10">
-          <div className="grid grid-cols-3 gap-4 text-center text-xs">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center text-xs">
             {[
               { val: '300M', unit: 'ans', label: 'Pour former le pétrole actuel', color: '#C17F24' },
               { val: '200', unit: 'ans', label: 'Pour le consommer entièrement', color: '#B85450' },
@@ -1105,3 +1105,4 @@ export default function PastStory() {
     </ReadingModeProvider>
   );
 }
+

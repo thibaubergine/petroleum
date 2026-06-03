@@ -310,7 +310,7 @@ function PresentContent() {
       <TableOfContents chapters={CHAPTERS} />
 
       {/* Toggle sticky */}
-      <div className="sticky top-14 z-40 flex items-center justify-between px-8 py-3 bg-[#0d0d0d]/90 backdrop-blur border-b border-white/5">
+      <div className="sticky top-14 z-40 flex flex-wrap items-center justify-between px-4 md:px-8 py-2 gap-2 bg-[#0d0d0d]/90 backdrop-blur border-b border-white/5">
         <div className="flex items-center gap-3">
           <span className="text-blue-400/60 text-xs uppercase tracking-widest font-bold">Acte II</span>
           <span className="text-white/20 text-xs">2026</span>
@@ -1058,3 +1058,4 @@ export default function PresentStory() {
     </ReadingModeProvider>
   );
 }
+
