@@ -267,7 +267,20 @@ def final_report():
 # MAIN
 # ─────────────────────────────────────────────────────────────────────────────
 
+def is_already_initialized():
+    try:
+        db = SessionLocal()
+        from sqlalchemy import text
+        count = db.execute(text("SELECT COUNT(*) FROM historical_production")).scalar()
+        db.close()
+        return count > 100
+    except:
+        return False
+
 def main():
+    if is_already_initialized():
+        print("✅ DB déjà initialisée — skip init")
+        return
     start = time.time()
 
     print("\n" + "█" * 70)
