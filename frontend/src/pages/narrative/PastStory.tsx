@@ -910,7 +910,7 @@ function PastContent() {
             },
             {
               guerre: 'Printemps arabe / Libye — 2011',
-              contexte: 'La population libyenne se soulève contre Kadhafi, au pouvoir depuis 42 ans. L'OTAN intervient militairement sous mandat onusien.',
+              contexte: "La population libyenne se soulève contre Kadhafi, au pouvoir depuis 42 ans. L'OTAN intervient militairement sous mandat onusien.",
               petrole: '48 milliards de barils + pétrole léger de haute qualité, coût d\'extraction parmi les plus bas au monde',
               reponse: 'Intervention OTAN. Kadhafi tué. Chaos durable.',
               dit: '"Protéger les civils" (résolution ONU 1973)',
@@ -919,7 +919,7 @@ function PastContent() {
             },
             {
               guerre: 'Guerre en Ukraine — 2022-présent',
-              contexte: 'Le 24 février 2022, la Russie envahit l'Ukraine, déclenchant la plus grande guerre terrestre en Europe depuis 1945.',
+              contexte: "Le 24 février 2022, la Russie envahit l'Ukraine, déclenchant la plus grande guerre terrestre en Europe depuis 1945.",
               petrole: 'Russie = 2e exportateur mondial de pétrole, 1er de gaz naturel vers l\'Europe',
               reponse: 'Sanctions occidentales massives. Réorientation des flux énergétiques européens. Prix du gaz ×10 en Europe en 2022.',
               dit: '"Défense de la démocratie ukrainienne"',
