@@ -892,6 +892,7 @@ function PastContent() {
             },
             {
               guerre: 'Invasion d\'Afghanistan — 2001-2021',
+              contexte: 'Suite aux attentats du 11 septembre 2001, les États-Unis envahissent l\'Afghanistan, sanctuaire des talibans.',
               petrole: 'Pipeline TAPI (Turkménistan-Afghanistan-Pakistan-Inde) : 33 Gm³/an de gaz planifié',
               reponse: '20 ans d\'occupation, 2 400 soldats américains tués, 2 000 milliards dépensés.',
               dit: '"Éliminer Al-Qaïda et les Talibans"',
@@ -900,6 +901,7 @@ function PastContent() {
             },
             {
               guerre: 'Invasion d\'Irak — 2003-2011',
+              contexte: 'Les États-Unis et le Royaume-Uni envahissent l\'Irak, accusant Saddam Hussein de posséder des armes de destruction massive — accusations jamais prouvées.',
               petrole: '115 milliards de barils de réserves prouvées — 3e réserve mondiale',
               reponse: 'Coalition USA-UK. 4 500 soldats américains tués. 500 000 civils irakiens morts (estimations ONU).',
               dit: '"Armes de destruction massive" (inexistantes)',
