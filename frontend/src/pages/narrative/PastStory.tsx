@@ -229,7 +229,7 @@ function H2({ children }: { children: React.ReactNode }) {
 }
 
 function P({ children }: { children: React.ReactNode }) {
-  return <p className="text-white/70 leading-relaxed text-base mb-7" style={{lineHeight:"1.9"}}>{children}</p>;
+  return <p className="text-white/70 leading-relaxed text-base mb-9" style={{lineHeight:"1.95"}}>{children}</p>;
 }
 
 function Quote({ text, source }: { text: string; source: string }) {
@@ -883,6 +883,7 @@ function PastContent() {
           {[
             {
               guerre: 'Guerre du Golfe — 1990-1991',
+              contexte: 'Le 2 août 1990, Saddam Hussein envahit le Koweït voisin, revendiquant son territoire et ses réserves pétrolières.',
               petrole: 'Irak envahit le Koweït — 10% des réserves mondiales changent de mains',
               reponse: 'Coalition de 34 pays menée par les USA. Libération du Koweït en 6 semaines.',
               dit: '"Protéger la souveraineté du Koweït"',
@@ -907,6 +908,7 @@ function PastContent() {
             },
             {
               guerre: 'Printemps arabe / Libye — 2011',
+              contexte: 'La population libyenne se soulève contre Kadhafi, au pouvoir depuis 42 ans. L'OTAN intervient militairement sous mandat onusien.',
               petrole: '48 milliards de barils + pétrole léger de haute qualité, coût d\'extraction parmi les plus bas au monde',
               reponse: 'Intervention OTAN. Kadhafi tué. Chaos durable.',
               dit: '"Protéger les civils" (résolution ONU 1973)',
@@ -915,6 +917,7 @@ function PastContent() {
             },
             {
               guerre: 'Guerre en Ukraine — 2022-présent',
+              contexte: 'Le 24 février 2022, la Russie envahit l'Ukraine, déclenchant la plus grande guerre terrestre en Europe depuis 1945.',
               petrole: 'Russie = 2e exportateur mondial de pétrole, 1er de gaz naturel vers l\'Europe',
               reponse: 'Sanctions occidentales massives. Réorientation des flux énergétiques européens. Prix du gaz ×10 en Europe en 2022.',
               dit: '"Défense de la démocratie ukrainienne"',

@@ -1054,7 +1054,7 @@ function PresentContent() {
             Le CO₂ qui monte, les émirats qui ne votent pas, les goulots d'étranglement maritimes,
             les prix qui font tomber les gouvernements, les batteries électriques transportées
             au fioul lourd — tous ces fils remontent au même endroit.
-            L'empire est invisible parce qu'il est partout.
+            Le CO₂ qui monte, les émirats qui ne votent pas, les goulots d'étranglement maritimes, les prix qui font tomber les gouvernements, les batteries électriques transportées au fioul lourd — tous ces fils remontent au même endroit. L'empire est invisible parce qu'il est partout.
           </P>
 
           {/* Graphique mix énergétique mondial */}
