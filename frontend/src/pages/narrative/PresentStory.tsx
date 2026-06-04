@@ -360,10 +360,7 @@ function PresentContent() {
 
       <div className="max-w-3xl mx-auto px-8 pb-32">
 
-        {/* ── Intro : le pétrole est partout ── */}
-        <div className="my-10 p-6 bg-white/5 rounded-2xl border border-white/10">
-          <div className="text-xs text-white/30 uppercase tracking-widest mb-4 font-bold">Avant tout</div>
-          <p className="text-white/70 text-sm leading-relaxed mb-4">
+                  <p className="text-white/70 text-sm leading-relaxed mb-4">
             On parle du pétrole comme d'un carburant. C'est réducteur.
             <strong className="text-white"> 10% du pétrole mondial ne brûle jamais</strong> — il devient de la matière :
             plastiques, engrais, médicaments, textiles. Le reste alimente le transport, l'industrie, le chauffage.
@@ -388,10 +385,7 @@ function PresentContent() {
           </p>
         </div>
 
-        {/* ── Intro : le pétrole est partout ── */}
-        <div className="my-10 p-6 bg-white/5 rounded-2xl border border-white/10">
-          <div className="text-xs text-white/30 uppercase tracking-widest mb-4 font-bold">Avant tout</div>
-          <p className="text-white/70 text-sm leading-relaxed mb-4">
+                  <p className="text-white/70 text-sm leading-relaxed mb-4">
             On parle du pétrole comme d&apos;un carburant. C&apos;est réducteur.
             <strong className="text-white"> 10% du pétrole mondial ne brûle jamais</strong> — il devient de la matière :
             plastiques, engrais, médicaments, textiles. Le reste alimente le transport, l&apos;industrie, le chauffage.
@@ -416,6 +410,28 @@ function PresentContent() {
           </p>
         </div>
 
+        <div className="my-10 p-6 bg-white/5 rounded-2xl border border-white/10">
+          <div className="text-xs text-white/30 uppercase tracking-widest mb-4 font-bold">Avant tout</div>
+          <p className="text-white/70 text-sm leading-relaxed mb-4">
+            On parle du pétrole comme d&apos;un carburant — c&apos;est réducteur.{' '}
+            <strong className="text-white">10% du pétrole mondial ne brûle jamais</strong> : il devient de la
+            matière — plastiques, engrais, médicaments, textiles.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs text-center">
+            {[
+              { val: '~50%', label: 'carburants transport', sub: 'voitures, avions, bateaux' },
+              { val: '~16%', label: 'pétrochimie', sub: 'plastiques, matières' },
+              { val: '~10%', label: 'agriculture', sub: 'engrais, machines' },
+              { val: '~60%', label: 'textiles mondiaux', sub: 'polyester, nylon' },
+            ].map(s => (
+              <div key={s.label} className="bg-white/5 rounded-xl p-3">
+                <div className="text-2xl font-black text-blue-400 mb-0.5">{s.val}</div>
+                <div className="text-white/60 font-semibold">{s.label}</div>
+                <div className="text-white/30 mt-0.5">{s.sub}</div>
+              </div>
+            ))}
+          </div>
+        </div>
         <ChapterAnchor id="pch-co2" />
         {/* I — CO₂ */
         <ChapterLabel n="I" label="Climat" />
@@ -1082,7 +1098,7 @@ function PresentContent() {
             Le CO₂ qui monte, les émirats qui ne votent pas, les goulots d'étranglement maritimes,
             les prix qui font tomber les gouvernements, les batteries électriques transportées
             au fioul lourd — tous ces fils remontent au même endroit.
-            Le CO₂ qui monte, les émirats qui ne votent pas, les goulots d'étranglement maritimes, les prix qui font tomber les gouvernements, les batteries électriques transportées au fioul lourd — tous ces fils remontent au même endroit. L'empire est invisible parce qu'il est partout.
+            Le CO₂ qui monte, les émirats qui ne votent pas, les goulots d'étranglement maritimes, les prix qui font tomber les gouvernements, les batteries électriques transportées au fioul lourd — tous ces fils remontent au même endroit. Le CO₂ qui monte, les États rentiers qui ne votent pas, les goulots d'étranglement maritimes, les prix qui font tomber les gouvernements, les batteries électriques transportées au fioul lourd — tous ces fils remontent au même endroit. L'empire est invisible parce qu'il est partout.
           </P>
 
           {/* Graphique mix énergétique mondial */}
