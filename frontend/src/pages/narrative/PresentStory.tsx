@@ -5,7 +5,7 @@ import { useQuery } from '@tanstack/react-query';
 import { api } from '@/services/api';
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, BarChart, Bar, Cell, Legend, AreaChart, Area
+  ResponsiveContainer, BarChart, Bar, Cell, Legend, AreaChart, Area, ReferenceLine
 } from 'recharts';
 import { GRID_STYLE, AXIS_STYLE } from '@/utils/chartColors';
 
@@ -44,7 +44,7 @@ function EnergyMixChart() {
     return ENERGY_MIX_STATIC;
   }, [apiData]);
 
-  const fossilData = chartData.map((d: any) => ({
+  const fossilData = chartData.map(d => ({
     year: d.year,
     fossil: Math.round(d.oil + d.gas + d.coal),
     clean: Math.round(d.nuclear + d.hydro + d.renewables),
@@ -261,7 +261,7 @@ function OrmuzWidget() {
           { pays: 'Chine', pct: '~40%', dep: 'de ses importations' },
           { pays: 'Europe', pct: '~20%', dep: 'de ses importations' },
           { pays: 'USA', pct: '~10%', dep: '(producteur, moins dépendant)' },
-        ].map((d: any) => (
+        ].map(d => (
           <div key={d.pays} className="bg-white/5 rounded-lg p-3">
             <div className="font-bold text-white">{d.pays}</div>
             <div className="text-blue-400 font-black text-lg">{d.pct}</div>
@@ -310,7 +310,7 @@ function PresentContent() {
       <TableOfContents chapters={CHAPTERS} />
 
       {/* Toggle sticky */}
-      <div className="sticky top-14 z-40 flex flex-wrap items-center justify-between px-4 md:px-8 py-2 gap-2 bg-[#0d0d0d]/90 backdrop-blur border-b border-white/5">
+      <div className="sticky top-14 z-40 flex items-center justify-between px-8 py-3 bg-[#0d0d0d]/90 backdrop-blur border-b border-white/5">
         <div className="flex items-center gap-3">
           <span className="text-blue-400/60 text-xs uppercase tracking-widest font-bold">Acte II</span>
           <span className="text-white/20 text-xs">2026</span>
@@ -360,80 +360,8 @@ function PresentContent() {
 
       <div className="max-w-3xl mx-auto px-8 pb-32">
 
-                  <p className="text-white/70 text-sm leading-relaxed mb-4">
-            On parle du pétrole comme d'un carburant. C'est réducteur.
-            <strong className="text-white"> 10% du pétrole mondial ne brûle jamais</strong> — il devient de la matière :
-            plastiques, engrais, médicaments, textiles. Le reste alimente le transport, l'industrie, le chauffage.
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs text-center">
-            {[
-              { val: '~50%', label: 'carburants transport', sub: 'voitures, avions, bateaux' },
-              { val: '~16%', label: 'pétrochimie & plastiques', sub: 'matières, emballages' },
-              { val: '~10%', label: 'agriculture', sub: 'engrais, machines, films' },
-              { val: '~60%', label: 'textiles mondiaux', sub: 'polyester, nylon, acrylique' },
-            ].map(s => (
-              <div key={s.label} className="bg-white/5 rounded-xl p-3">
-                <div className="text-2xl font-black text-blue-400 mb-0.5">{s.val}</div>
-                <div className="text-white/60 font-semibold">{s.label}</div>
-                <div className="text-white/30 mt-0.5">{s.sub}</div>
-              </div>
-            ))}
-          </div>
-          <p className="text-white/40 text-xs mt-4 leading-relaxed">
-            Supprimer le pétrole de la civilisation industrielle, c'est retirer le béton d'un immeuble déjà construit.
-            Les chapitres suivants explorent ce que cela implique — pour le climat, la géopolitique, et votre pompe à essence.
-          </p>
-        </div>
-
-                  <p className="text-white/70 text-sm leading-relaxed mb-4">
-            On parle du pétrole comme d&apos;un carburant. C&apos;est réducteur.
-            <strong className="text-white"> 10% du pétrole mondial ne brûle jamais</strong> — il devient de la matière :
-            plastiques, engrais, médicaments, textiles. Le reste alimente le transport, l&apos;industrie, le chauffage.
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs text-center">
-            {[
-              { val: '~50%', label: 'carburants transport', sub: 'voitures, avions, bateaux' },
-              { val: '~16%', label: 'pétrochimie & plastiques', sub: 'matières, emballages' },
-              { val: '~10%', label: 'agriculture', sub: 'engrais, machines, films' },
-              { val: '~60%', label: 'textiles mondiaux', sub: 'polyester, nylon, acrylique' },
-            ].map(s => (
-              <div key={s.label} className="bg-white/5 rounded-xl p-3">
-                <div className="text-2xl font-black text-blue-400 mb-0.5">{s.val}</div>
-                <div className="text-white/60 font-semibold">{s.label}</div>
-                <div className="text-white/30 mt-0.5">{s.sub}</div>
-              </div>
-            ))}
-          </div>
-          <p className="text-white/40 text-xs mt-4 leading-relaxed">
-            Supprimer le pétrole de la civilisation industrielle, c&apos;est retirer le béton d&apos;un immeuble déjà construit.
-            Les chapitres suivants explorent ce que cela implique — pour le climat, la géopolitique, et votre pompe à essence.
-          </p>
-        </div>
-
-        <div className="my-10 p-6 bg-white/5 rounded-2xl border border-white/10">
-          <div className="text-xs text-white/30 uppercase tracking-widest mb-4 font-bold">Avant tout</div>
-          <p className="text-white/70 text-sm leading-relaxed mb-4">
-            On parle du pétrole comme d&apos;un carburant — c&apos;est réducteur.{' '}
-            <strong className="text-white">10% du pétrole mondial ne brûle jamais</strong> : il devient de la
-            matière — plastiques, engrais, médicaments, textiles.
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs text-center">
-            {[
-              { val: '~50%', label: 'carburants transport', sub: 'voitures, avions, bateaux' },
-              { val: '~16%', label: 'pétrochimie', sub: 'plastiques, matières' },
-              { val: '~10%', label: 'agriculture', sub: 'engrais, machines' },
-              { val: '~60%', label: 'textiles mondiaux', sub: 'polyester, nylon' },
-            ].map(s => (
-              <div key={s.label} className="bg-white/5 rounded-xl p-3">
-                <div className="text-2xl font-black text-blue-400 mb-0.5">{s.val}</div>
-                <div className="text-white/60 font-semibold">{s.label}</div>
-                <div className="text-white/30 mt-0.5">{s.sub}</div>
-              </div>
-            ))}
-          </div>
-        </div>
         <ChapterAnchor id="pch-co2" />
-        {/* I — CO₂ */
+        {/* I — CO₂ */}
         <ChapterLabel n="I" label="Climat" />
         <H2>Ce que le pétrole fait à l'atmosphère — sans détour</H2>
 
@@ -506,7 +434,7 @@ function PresentContent() {
         <H2>Pourquoi l'Arabie Saoudite n'est pas une démocratie</H2>
 
         <P>
-          La question semble provocatrice. La réponse, elle, est économique.
+          La question semble provocatrice. Elle est en réalité économique.
           Les pays producteurs de pétrole qui n'ont pas à taxer leurs citoyens
           n'ont pas besoin de leur rendre de comptes. C'est le "pacte rentier" :
           l'État distribue la rente pétrolière sous forme de subventions,
@@ -581,12 +509,12 @@ function PresentContent() {
               <YAxis type="category" dataKey="country" tick={{ fill: '#ffffff70', fontSize: 11 }} axisLine={false} tickLine={false} width={85} />
               <Tooltip contentStyle={{ backgroundColor: '#1a1a2e', border: '1px solid #ffffff20', borderRadius: '8px', fontSize: 11 }}
                 labelStyle={{ color: '#ffffff80' }}
-                formatter={(v: number, _n: string, p: any) => [
+                formatter={(v: number, n: string, p: any) => [
                   `IDH ${v.toFixed(3)} · ${p.payload.label}`,
                   `Réserves: ${p.payload.reserves} Gb`
                 ]} />
               <Bar dataKey="hdi" radius={[0, 4, 4, 0]}>
-                {RESOURCE_DATA.sort((a, b) => b.hdi - a.hdi).map((d: any) => (
+                {RESOURCE_DATA.sort((a, b) => b.hdi - a.hdi).map(d => (
                   <Cell key={d.country} fill={HDI_COLORS[d.label] ?? '#8E7F6B'} />
                 ))}
               </Bar>
@@ -770,7 +698,7 @@ function PresentContent() {
             title="Prix de l'essence par pays — USD/litre"
             subtitle="Du Venezuela à la Norvège — un écart de 1:100">
             <div className="space-y-2">
-              {PUMP_COMPARISON.map((d: any) => {
+              {PUMP_COMPARISON.map(d => {
                 const real = gasolineData.find((g: any) =>
                   g.country_name?.toLowerCase().includes(d.country.toLowerCase()) ||
                   (d.country === 'Arabie S.' && g.country_code === 'SAU') ||
@@ -796,7 +724,7 @@ function PresentContent() {
         ) : (
           <ChartBox title="Prix de l'essence par pays — USD/litre">
             <div className="space-y-2">
-              {PUMP_COMPARISON.map((d: any) => {
+              {PUMP_COMPARISON.map(d => {
                 const pct = (d.price / 2.12) * 100;
                 return (
                   <div key={d.country} className="flex items-center gap-3">
@@ -879,7 +807,7 @@ function PresentContent() {
               { label: 'Offshore profond Brésil',  val: 44,  max: 80, color: '#8B4513', note: 'Pré-sel, 2000m+' },
               { label: 'Sables bitumineux Canada', val: 72,  max: 80, color: '#B85450', note: 'Le plus coûteux en énergie' },
               { label: 'Seuil de rentabilité',     val: 60,  max: 80, color: '#ffffff', note: '≈ prix minimal pour équilibrer budgets saoudiens', isRef: true },
-            ].filter((d: any) => !d.isRef).map((d: any) => (
+            ].filter(d => !d.isRef).map(d => (
               <div key={d.label} className="flex items-center gap-3">
                 <div className="w-44 text-sm text-white/70 text-right shrink-0 leading-tight font-medium">{d.label}</div>
                 <div className="flex-1 h-7 bg-white/5 rounded-lg overflow-hidden relative">
@@ -1095,10 +1023,7 @@ function PresentContent() {
           </div>
 
           <P>
-            Le CO₂ qui monte, les émirats qui ne votent pas, les goulots d'étranglement maritimes,
-            les prix qui font tomber les gouvernements, les batteries électriques transportées
-            au fioul lourd — tous ces fils remontent au même endroit.
-            Le CO₂ qui monte, les émirats qui ne votent pas, les goulots d'étranglement maritimes, les prix qui font tomber les gouvernements, les batteries électriques transportées au fioul lourd — tous ces fils remontent au même endroit. Le CO₂ qui monte, les États rentiers qui ne votent pas, les goulots d'étranglement maritimes, les prix qui font tomber les gouvernements, les batteries électriques transportées au fioul lourd — tous ces fils remontent au même endroit. L'empire est invisible parce qu'il est partout.
+            L'empire est invisible parce qu'il est partout.
           </P>
 
           {/* Graphique mix énergétique mondial */}
@@ -1133,4 +1058,3 @@ export default function PresentStory() {
     </ReadingModeProvider>
   );
 }
-
