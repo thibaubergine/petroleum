@@ -923,10 +923,13 @@ function PastContent() {
             },
           ].map(g => (
             <div key={g.guerre} className="rounded-xl border border-white/10 overflow-hidden">
-              <div className="px-4 py-3 flex items-center justify-between"
+              <div className="px-4 py-3"
                 style={{ backgroundColor: g.color + '20', borderBottom: `1px solid ${g.color}30` }}>
-                <div className="font-bold text-white text-sm">{g.guerre}</div>
-                <div className="text-xs font-mono" style={{ color: g.color }}>{g.petrole.split('—')[0].trim()}</div>
+                <div className="flex items-center justify-between mb-1">
+                  <div className="font-bold text-white text-sm">{g.guerre}</div>
+                  <div className="text-xs font-mono" style={{ color: g.color }}>{g.petrole.split('—')[0].trim()}</div>
+                </div>
+                <div className="text-xs text-white/55 italic leading-relaxed">{g.contexte}</div>
               </div>
               <div className="px-4 py-3 grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
                 <div>
