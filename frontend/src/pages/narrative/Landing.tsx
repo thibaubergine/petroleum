@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { useHistoricalProduction } from '@/hooks/useHistorical';
 import { useMemo } from 'react';
 
@@ -93,9 +93,9 @@ export default function Landing() {
 
           {/* Texte intro */}
           <p className="text-base text-white/70 leading-loose max-w-2xl mb-14">
-            Prométhée offrit aux hommes le feu des dieux — et paya ce don de sa liberté pour l'éternité.
+            Prométhée offrit aux hommes le feu, il paya ce don de sa liberté pour l'éternité.
             Il est de bon ton de faire une analogie pompeuse avec une référence mythologique ou biblique,
-            celle-ci me semble idéale. Le pétrole est l'exact équivalent moderne : énergie souterraine
+            celle-ci fonctionne. Le pétrole est l'exact équivalent moderne : énergie souterraine
             et primordiale, il a alimenté deux siècles de technologies et de croissance exponentielle.
             Mais toute énergie prométhéenne porte sa malédiction — l'expansion qu'elle rend possible
             creuse simultanément les conditions de son propre épuisement.
