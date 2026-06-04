@@ -467,7 +467,7 @@ function PastContent() {
         </div>
       </div>
 
-      <div className="max-w-3xl mx-auto px-8 pb-32 space-y-0">
+      <div className="max-w-3xl mx-auto px-8 pb-32">
 
         <ChapterAnchor id="ch-geo" />
         {/* 0 — ORIGINES GÉOLOGIQUES */}
