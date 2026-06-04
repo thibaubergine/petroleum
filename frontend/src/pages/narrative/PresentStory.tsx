@@ -44,7 +44,7 @@ function EnergyMixChart() {
     return ENERGY_MIX_STATIC;
   }, [apiData]);
 
-  const fossilData = chartData.map(d => ({
+  const fossilData = chartData.map((d: any) => ({
     year: d.year,
     fossil: Math.round(d.oil + d.gas + d.coal),
     clean: Math.round(d.nuclear + d.hydro + d.renewables),
