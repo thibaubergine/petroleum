@@ -88,7 +88,7 @@ export default function Landing() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/50 font-light italic mb-10 max-w-2xl leading-relaxed">
-            Le feu souterrain — anatomie d'une énergie prométhéenne
+            Le feu souterrain — une énergie prométhéenne
           </p>
 
           {/* Texte intro */}

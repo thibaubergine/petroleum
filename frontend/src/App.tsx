@@ -120,7 +120,7 @@ function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-oil-sand-light">
       {/* Header avec image */}
-      <div className="relative overflow-hidden" style={{ height: '140px' }}>
+      <div className="relative overflow-hidden" style={{ height: '200px' }}>
         <div className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: 'url(/header-bg.png)', backgroundPosition: 'center 40%' }} />
         <div className="absolute inset-0 bg-gradient-to-b from-oil-slate/70 via-oil-slate/60 to-oil-slate/85" />
@@ -131,7 +131,7 @@ function DashboardLayout({ children }: { children: React.ReactNode }) {
               Petroleum
             </h1>
             <span className="text-white/30 text-sm font-light italic hidden md:block">
-              Le feu souterrain — anatomie d'une énergie prométhéenne
+              Le feu souterrain — une énergie prométhéenne
             </span>
           </div>
           <p className="text-xs text-white/40 mt-1">Dashboard analytique</p>
